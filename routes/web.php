@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\deliverBoyController;
 use App\Http\Controllers\CouponsController;
 use App\Http\Controllers\DishController;
+use App\Http\Controllers\FrontEndController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,7 @@ use App\Http\Controllers\DishController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/', [FrontEndController::class, 'index']);
 
 Auth::routes();
 

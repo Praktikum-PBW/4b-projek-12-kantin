@@ -25,8 +25,8 @@
                         <th>SL</th>
                         <th>Nama Hidangan</th>
                         <th>Kategori Hidangan</th>
-                        <th>Detail Dish</th>
-                        <th>Dish_image</th>
+                        <th>Detail Hidangan</th>
+                        <th>Foto Hidangan</th>
                         <th>Ditambahkan Pada</th>
                         <th>Action</th>
                     </tr>
