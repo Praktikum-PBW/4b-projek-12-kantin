@@ -48,7 +48,7 @@
                             <td>{{ $code->coupon_value }}</td>
                             <td>{{ $code->cart_min_value }}</td>                           
                             <td>{{ $code->expired_on }}</td>                           
-                            <td>{{ $code->added_on }}</td>                           
+                            <td>{{ $code->created_at }}</td>                           
                             <td>
                                 @if($code->coupon_status==1)
                                 <a class="btn btn-outline-success" href="{{ route('inactive_coupon_code', ['coupon_id'=>$code->coupon_id]) }}"><i class="fas fa-arrow-up" title="klik untuk Menonaktifkan"></i></a>

@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('delivery_boy_phone_number');
             $table->string('delivery_boy_password');
             $table->integer('delivery_boy_status');
-            $table->dateTime('added_on');
             $table->timestamps();
         });
     }

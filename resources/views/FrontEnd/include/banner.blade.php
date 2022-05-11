@@ -4,12 +4,12 @@
 			<div class="w3ls-header"><!-- header-one --> 
 				<div class="container">
 					<div class="w3ls-header-left">
-						<p>Free home delivery at your doorstep For Above $30</p>
+						<p>Pengiriman sampai rumah gratis minimal pemesanan Rp. 60.000</p>
 					</div>
 					<div class="w3ls-header-right">
 						<ul> 
 							<li class="head-dpdn">
-								<i class="fa fa-phone" aria-hidden="true"></i> Call us: +01 222 33345 
+								<i class="fa fa-phone" aria-hidden="true"></i> Telepon : 0819-1948-0565 
 							</li> 
 							<li class="head-dpdn">
 								<a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
@@ -41,13 +41,13 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>  
-							<h1><a href="index.html">Staple<span>Best Food Collection</span></a></h1>
+							<h1><a href="index.html">Icanteen<span>Kantin Terbaik untuk Kamu</span></a></h1>
 						</div> 
 						<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 							<ul class="nav navbar-nav navbar-right">
                                 <!-- Mega Menu -->
 								@foreach($categories as $category)
-								<li><a href="{{url('/')}}">{{$category->category_name}}</a></li>	
+								<li><a href="{{route('category_dish', ['category_id'=>$category->category_id])}}">{{$category->category_name}}</a></li>	
                                 @endforeach
 								<li><a href="about.html">About</a></li> 
 								<li><a href="contact.html">Contact Us</a></li>

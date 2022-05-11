@@ -41,10 +41,6 @@
                         <input type="date" name="expired_on" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Ditambahkan Pada</label>
-                        <input type="date" name="added_on" class="form-control">
-                    </div>
-                    <div class="form-group">
                         <label>Tipe Kupon</label>
                         <div class="radio">
                             <input type="radio" name="coupon_type" value="1">Percentage

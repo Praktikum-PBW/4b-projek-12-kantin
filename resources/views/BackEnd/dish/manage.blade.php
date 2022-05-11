@@ -40,7 +40,7 @@
                             <td>{{ $dish->category_name }}</td>
                             <td>{{ $dish->dish_detail }}</td>
                             <td><img src="{{ asset($dish->dish_image) }}" height="25" width="60" class="img-fluid img-tumbnail"></td>
-                            <td>{{ $dish->added_on }}</td>
+                            <td>{{ $dish->created_at }}</td>
                             
                             <td>
                                 @if($dish->dish_status==1)
@@ -100,13 +100,13 @@
                                                 <div class="form-group">
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <input type="text" class="form-control" name="full" value="{{ $dish->full }}">
+                                                            <label>Harga Penuh</label>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <input type="text" class="form-control" name="full_price" value="{{ $dish->full_price }}">
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text" class="form-control" name="half" value="{{ $dish->half }}">
+                                                            <label>Harga Setengah</label>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <input type="text" class="form-control" name="half_price"

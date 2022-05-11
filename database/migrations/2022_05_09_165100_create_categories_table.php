@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('category_name');
             $table->integer('order_number');
             $table->integer('category_status');
-            $table->dateTime('added_on');
             $table->timestamps();
         });
     }

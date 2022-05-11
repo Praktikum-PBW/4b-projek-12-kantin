@@ -52,10 +52,7 @@
                             <input type="radio" name="dish_status" value="0">Tidak Aktif
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label>Ditambahkan Pada</label>
-                        <input type="date" name="added_on" class="form-control">
-                    </div>
+                    
                 </div>
 
                 <div class="card">
@@ -66,17 +63,17 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="full" placeholder="Full">
+                                    <label>Harga Penuh</label>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="full_price" placeholder="Enter Price">
+                                    <input type="text" class="form-control" name="full_price" placeholder="Masukan Harga">
                                 </div>
                                 <div class="col-md-6 mt-2">
-                                    <input type="text" class="form-control" name="half" placeholder="Half">
+                                    <label>Setengah Harga</label>
                                 </div>
                                 <div class="col-md-6 mt-2">
                                     <input type="text" class="form-control" name="half_price"
-                                        placeholder="Enter 2nd price">
+                                        placeholder="Masukan Harga ke2">
                                 </div>
                             </div>
                         </div>

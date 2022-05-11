@@ -36,7 +36,7 @@
                             <td>{{ $i++ }}</td>
                             <td>{{ $boy->delivery_boy_name }}</td>
                             <td>{{ $boy->delivery_boy_phone_number }}</td>
-                            <td>{{ $boy->added_on }}</td>
+                            <td>{{ $boy->created_at }}</td>
                             
                             <td>
                                 @if($boy->delivery_boy_status==1)

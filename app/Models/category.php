@@ -9,7 +9,7 @@ class category extends Model
 {
     protected $fillable =
     [
-        'category_name', 'order_number', 'category_status', 'added_on',
+        'category_name', 'order_number', 'category_status',
     ];
 
     protected $primaryKey = 'category_id';

@@ -23,6 +23,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/', [FrontEndController::class, 'index']);
+Route::get('/category/dish/show{category_id}', [FrontEndController::class, 'dish_show'])->name('category_dish');
 
 Auth::routes();
 

@@ -19,7 +19,6 @@ class CouponsController extends Controller
         $coupon->cart_min_value = $request->cart_min_value;
         $coupon->expired_on = $request->expired_on;
         $coupon->coupon_status = $request->coupon_status;
-        $coupon->added_on = $request->added_on;
 
         $coupon->save();
         return back()->with('sms','Kupon Berhasil ditambahkan');

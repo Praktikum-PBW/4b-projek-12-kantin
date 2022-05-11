@@ -10,8 +10,13 @@ use App\Models\dish;
 class FrontEndController extends Controller
 {
     public function index(){
-        $categories = Category::where('category_status', 1)->get();
         $dishes = Dish::where('dish_status', 1)->get();
-        return view('FrontEnd.include.home', compact('categories','dishes'));
+        return view('FrontEnd.include.home', compact('dishes'));
+    }
+    public function dish_show($id){
+        $categoryDish = Dish::where('category_id', $id)
+                            ->where('dish_status', 1)
+                            ->get();
+        return view('FrontEnd.include.dish', compact('categoryDish'));
     }
 }

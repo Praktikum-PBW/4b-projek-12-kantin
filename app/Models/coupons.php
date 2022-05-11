@@ -15,7 +15,6 @@ class coupons extends Model
         'cart_min_value',
         'expired_on',
         'coupon_status',
-        'added_on',
     ];
     protected $primaryKey = 'coupon_id';
 }

@@ -21,7 +21,6 @@ return new class extends Migration
             $table->integer('cart_min_value');
             $table->dateTime('expired_on');
             $table->integer('coupon_status');
-            $table->dateTime('added_on');
             $table->timestamps();
         });
     }

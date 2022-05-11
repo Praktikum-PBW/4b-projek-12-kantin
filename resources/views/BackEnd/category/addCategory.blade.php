@@ -33,10 +33,6 @@
                         <input type="text" name="order_number" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Ditambahkan Pada</label>
-                        <input type="date" name="added_on" class="form-control">
-                    </div>
-                    <div class="form-group">
                         <label>Status Kategori</label>
                         <div class="radio">
                             <input type="radio" name="category_status" value="1">Aktif

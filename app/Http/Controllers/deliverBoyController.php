@@ -17,7 +17,6 @@ class deliverBoyController extends Controller
         $boy->delivery_boy_phone_number = $request->delivery_boy_phone_number;
         $boy->delivery_boy_password = $request->delivery_boy_password;
         $boy->delivery_boy_status = $request->delivery_boy_status;
-        $boy->added_on = $request->added_on;
         $boy->save();
 
         return back()->with('sms','Data Kurir Berhasil Disimpan');
