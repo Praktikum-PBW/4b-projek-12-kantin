@@ -74,6 +74,6 @@
 	</div>
 	<div class="copyw3-agile"> 
 		<div class="container">
-			<p>&copy; 2017 Staple Food. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			<p>&copy; 2022 Icanteen. All rights reserved</p>
 		</div>
 	</div>  
