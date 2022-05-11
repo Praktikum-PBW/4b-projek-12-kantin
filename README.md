@@ -11,6 +11,12 @@
 
 IcanTeen merupakan sebuah web application untuk membantu mempermudah pengelolaan transaksi di kantin-kantin sekolah dan kampus.
 
+## Anggota Kelompok (Kelompok 3)
+
+1. Cahya Diantoni (2010631170060)
+2. Irfan Maulana (2010631170013)
+3. Fathimatuz Zahra (2010631170009)
+
 ## Struktur Database
 
 db_icanteen
@@ -78,8 +84,41 @@ VS Code, Xampp, Browser
 
 **Framework:** Laravel, VueJS
 
-## Anggota Kelompok (Kelompok 3)
 
-1. Cahya Diantoni (2010631170060)
-2. Irfan Maulana (2010631170013)
-3. Fathimatuz Zahra (2010631170009)
+## ScreenShoot Website
+
+![image](ss/1.PNG)
+![image](ss/2.PNG)
+![image](ss/3.PNG)
+![image](ss/4.PNG)
+![image](ss/5.PNG)
+![image](ss/6.PNG)
+![image](ss/7.PNG)
+![image](ss/8.PNG)
+![image](ss/9.PNG)
+![image](ss/10.PNG)
+![image](ss/11.PNG)
+![image](ss/12.PNG)
+
+## Struktur Direktori
+
+-   public
+    -   BackEndResouceFile
+        -   dist
+        -   plugins
+    -   BackendSourceFile
+        -   dish
+    -   FrontEndSourceFile
+        -   css
+        -   fonts
+        -   images
+        -   js
+    -   css
+    -   js
+-   resources
+    -   view
+        -   auth
+        -   BackEnd
+        -   FrontEnd
+        -   layout
+-   routes
